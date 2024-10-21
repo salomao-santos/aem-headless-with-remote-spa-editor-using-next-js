@@ -97,6 +97,8 @@ actions/common/
 
 # Frontend Maven Plugin
 node/
+.next
+.next/
 
 # Tests
 coverage/
