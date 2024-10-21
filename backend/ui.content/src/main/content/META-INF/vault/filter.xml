@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/wknd-app" mode="merge"/>
+    <filter root="/content/wknd-app" mode="merge"/>
+    <filter root="/content/dam/wknd-app" mode="merge">
+        <exclude pattern="/content/dam/wknd-app(/.*)?"/>
+        <include pattern="/content/dam/wknd-app/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/wknd-app/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/wknd-app" mode="merge"/>
+</workspaceFilter>
