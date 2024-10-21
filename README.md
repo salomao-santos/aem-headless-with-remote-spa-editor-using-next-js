@@ -1,6 +1,5 @@
 # AEM Headless with Remote SPA Editor using Next JS.
-###Requirements:
-
+### Requirements:
 1. Java 11
 2. Node 16.0.0
 
